@@ -2,7 +2,7 @@
 //
 
 #include "TestProject.h"
-#include "..\DynamicLib\DynamicLib.h"
+#include "../DynamicLib/DynamicLib.h"
 
 using namespace std;
 
