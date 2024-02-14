@@ -42,7 +42,7 @@ jobs:
        # Do "out of source" build to shorten the path (due to MAX_PATH issue on Windows when vcpkg builds gRPC)
        # This must match the build directory from the cmake preset used
        # this can be removed when we start downloading dependencies as packages
-      build_dir: ../out/${{ matrix.config.cmake_preset }}
+     #s build_dir: ../out/${{ matrix.platform }}
       VCPKG_ROOT: '/usr/local/share/vcpkg'
     steps:
     - uses: actions/checkout@v4

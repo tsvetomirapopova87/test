@@ -11,5 +11,5 @@ endif()
 
 
 target_link_libraries(TestProject "StaticLib")
-target_link_libraries(TestProject ${CMAKE_CACHEFILE_DIR}\\DynamicLib)
+target_link_libraries(TestProject ${CMAKE_BINARY_DIR}//DynamicLib)
 # TODO: Add tests and install targets if needed.
